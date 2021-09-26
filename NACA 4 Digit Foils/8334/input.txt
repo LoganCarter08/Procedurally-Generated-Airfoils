@@ -1,0 +1,26 @@
+plop
+g
+
+naca 8334
+ppar
+N
+100
+
+
+PSAV foils/8334/foil.dat
+OPER
+vpar
+n
+9
+
+ITER 50
+visc 452361
+seqp
+pacc
+foils/8334/analysis.txt
+
+aseq -25 25 0.5
+
+
+
+quit

@@ -1,0 +1,26 @@
+plop
+g
+
+naca 9221
+ppar
+N
+100
+
+
+PSAV foils/9221/foil.dat
+OPER
+vpar
+n
+9
+
+ITER 50
+visc 452361
+seqp
+pacc
+foils/9221/analysis.txt
+
+aseq -25 25 0.5
+
+
+
+quit

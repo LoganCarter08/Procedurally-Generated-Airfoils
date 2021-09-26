@@ -1,0 +1,26 @@
+plop
+g
+
+naca 1728
+ppar
+N
+100
+
+
+PSAV foils/1728/foil.dat
+OPER
+vpar
+n
+9
+
+ITER 50
+visc 452361
+seqp
+pacc
+foils/1728/analysis.txt
+
+aseq -25 25 0.5
+
+
+
+quit

@@ -1,0 +1,26 @@
+plop
+g
+
+naca 1215
+ppar
+N
+100
+
+
+PSAV foils/1215/foil.dat
+OPER
+vpar
+n
+9
+
+ITER 50
+visc 452361
+seqp
+pacc
+foils/1215/analysis.txt
+
+aseq -25 25 0.5
+
+
+
+quit
